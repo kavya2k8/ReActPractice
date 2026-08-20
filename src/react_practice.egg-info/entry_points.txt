@@ -1,0 +1,2 @@
+[console_scripts]
+react-practice = react_practice.cli:main
