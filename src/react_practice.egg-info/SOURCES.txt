@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/react_practice/__init__.py
+src/react_practice/agent.py
+src/react_practice/cli.py
+src/react_practice.egg-info/PKG-INFO
+src/react_practice.egg-info/SOURCES.txt
+src/react_practice.egg-info/dependency_links.txt
+src/react_practice.egg-info/entry_points.txt
+src/react_practice.egg-info/requires.txt
+src/react_practice.egg-info/top_level.txt
+tests/test_agent.py

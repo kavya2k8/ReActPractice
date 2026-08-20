@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: react-practice
+Version: 0.1.0
+Summary: A ReAct-style student academic support agent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+
+# ReActPractice
+
+Student Academic Support Agent using a small, testable ReAct-style reasoning loop.
+
+## Quick start
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e '.[dev]'
+python -m react_practice "What assignments are overdue?"
+```
+
+The initial implementation runs offline with deterministic tool selection. The tool boundary is ready for an OpenAI-backed planner to be added later.
+
+## Project layout
+
+- `src/react_practice/agent.py` contains the ReAct loop and academic tools.
+- `src/react_practice/cli.py` provides the command-line interface.
+- `tests/` contains the automated checks.
